@@ -1,0 +1,106 @@
+.outer {
+    height: 100vh;
+    background-color: black;
+
+    
+
+    background-image: url('https://images.unsplash.com/photo-1434648957308-5e6a859697e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+}
+
+.form-center{
+    margin-left: 50%;
+}
+
+.panel-heading {
+   
+    text-align: center;
+    margin-bottom: 10px;
+    /* background-color: transparent; */
+
+}
+
+#forget {
+    min-width: 100px;
+    margin-left: auto;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    
+}
+
+.form-inline label {
+    padding-left: 10px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.btn {
+    margin-top: 20px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255); 
+    background-color: #000;
+    border-color: #000;
+}
+
+.panel {
+    min-height: 380px;
+    box-shadow: 20px 20px 80px rgb(0, 0, 0);
+    border-radius: 12px;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-right: 23%;
+    
+    
+    
+}
+panel-border{
+    background-color: transparent ; 
+
+} 
+
+.input-field {
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #000000;
+    color: #000000;
+    
+}
+
+.input-field.error {
+    border: 1px solid red;
+    color: red;
+}
+
+input[type='text'],
+input[type='password'] {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    background-color: transparent;
+}
+
+.fa-eye-slash.btn {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+}
